@@ -71,7 +71,6 @@
                 </select>
             </div>
             <div class="single-buttons col-offset-s-2 col-offset-m-4 col-12 {{ifnot updating}}col-offset-2 {{endifnot updating}}{{if updating}}col-offset-1 {{endif updating}}no-padding">
-                {{if updating}} <button class="button-3 col-offset-" type="submit" id="btnVariaciones">Añadir Variaciones</button>&nbsp; {{endif updating}}
                 {{ifnot readonly}}<button class="button-3"  type="submit" id="btnConfirmar" >Confirmar</button>&nbsp; {{endifnot readonly}}
                 <button class="button-3" type="submit" id="btnCancelar">Cancelar</button>
             </div>
